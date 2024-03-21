@@ -45,7 +45,7 @@ export default function Chat({ file }) {
       try {
         const uuid = localStorage.getItem("uuid");
         const response = await axios.post(
-          `http://localhost:8000/question/${uuid}`,
+          `${import.meta.env.VITE_API_URL}/question/${uuid}`,
           {
             question: newQues,
           }

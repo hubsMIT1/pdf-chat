@@ -72,7 +72,7 @@ export default function Header({ file, setFile }) {
       try {
         setLoading(true);
         const response = await axios.post(
-          `http://localhost:8000/upload/${uuid}`,
+          `${import.meta.env.VITE_API_URL}/upload/${uuid}`,
           formData,
           {
             headers: {
