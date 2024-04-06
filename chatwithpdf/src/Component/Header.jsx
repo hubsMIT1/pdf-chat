@@ -105,15 +105,15 @@ export default function Header({ file, setFile }) {
               />
               <div>
                 <h1 className="text-2xl font-bold text-gray-900 sm:text-4xl">
-                  planet
+                  pdfchat
                 </h1>
-                <p className="ml-2 sm:ml-5 text-xs sm:text-sm text-gray-900">
+{/*                 <p className="ml-2 sm:ml-5 text-xs sm:text-sm text-gray-900">
                   formerly{" "}
                   <span className="font-bold text-sm text-green-600">
                     {" "}
                     DPhi
                   </span>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
