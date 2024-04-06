@@ -104,7 +104,7 @@ export default function Header({ file, setFile }) {
                 src="https://framerusercontent.com/images/JxfsrNbOZ4bzVLkgTU6rWWVAFiI.png"
               />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 sm:text-4xl">
+                <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
                   PDFChat
                 </h1>
 {/*                 <p className="ml-2 sm:ml-5 text-xs sm:text-sm text-gray-900">
